@@ -40,7 +40,10 @@ export default function Navbar({ scrolled }: NavbarProps) {
         <nav className="hidden md:flex space-x-8">
           <NavLink href="#about">Sobre</NavLink>
           <NavLink href="#skills">Habilidades</NavLink>
+<<<<<<< HEAD
           <NavLink href="#experience">Experiência</NavLink>
+=======
+>>>>>>> 03cf507 (feat: atualizações no projeto portfolio)
           <NavLink href="#projects">Projetos</NavLink>
           <NavLink href="#contact">Contato</NavLink>
         </nav>
@@ -65,9 +68,12 @@ export default function Navbar({ scrolled }: NavbarProps) {
             <MobileNavLink href="#skills" onClick={() => setIsMenuOpen(false)}>
               Habilidades
             </MobileNavLink>
+<<<<<<< HEAD
             <MobileNavLink href="#experience" onClick={() => setIsMenuOpen(false)}>
               Experiência
             </MobileNavLink>
+=======
+>>>>>>> 03cf507 (feat: atualizações no projeto portfolio)
             <MobileNavLink href="#projects" onClick={() => setIsMenuOpen(false)}>
               Projetos
             </MobileNavLink>
